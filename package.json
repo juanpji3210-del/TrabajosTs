@@ -1,0 +1,18 @@
+{
+  "name": "ejercicios-ts",
+  "version": "1.0.0",
+  "description": "Ejercicios de tipos en TypeScript",
+  "main": "dist/ejercicios.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/ejercicios.js",
+    "dev": "tsc && node dist/ejercicios.js"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
